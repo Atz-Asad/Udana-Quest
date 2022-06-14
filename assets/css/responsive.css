@@ -1,0 +1,178 @@
+@media all and (max-width:1200px){
+    .container{
+        padding: 0 2rem;
+        box-sizing: border-box;
+    }
+    
+}
+@media all and (max-width:990px){
+    .banner-area{
+        flex-direction: column;
+    }
+    .banner-image{
+        margin: auto;
+        width: auto;
+    }
+    .banner-content {
+        padding: 0 0;
+        padding-bottom: 2rem;
+    }
+    .single-service-area {
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 4rem;
+        grid-column-gap: 5rem;
+    }
+    .footer-main-area {
+        position: relative;
+        padding: 3rem 0;
+    }
+    .footer-left {
+        justify-content: space-between;
+        display: flex;
+    }
+    .footer-area {
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 3rem;
+    }
+    .about-us p {
+        font-size: 1.8rem;
+    }
+    .devlopment-area {
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 3rem;
+    }
+    .dunia-area {
+        grid-column-gap: 3rem;
+    }
+    .dunia-icon-box {
+        grid-column-gap: 3rem;
+    }
+    
+}
+/* min-width */
+@media all and (min-width:767px){
+    .menu-close,
+    .menu-open{
+        display: none !important;
+    }
+}
+@media all and (max-width:767px){
+    /* menu */
+    .menu-item {
+        position: absolute;
+        transition: .5s;
+        right: -400px;
+        height: 100vh;
+        top: 44px;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 3rem 0;
+        width: 250px;
+        display: none !important;
+        transition: 1s;
+        text-align: center;
+    }
+    .menu{
+        position: relative;
+    }
+    .right{
+        right: 0 !important;   
+        display: block !important;    
+    }
+    .menu-item li{
+        padding:1.5rem 0;
+    }
+    /* .menu-close, */
+    .menu-open{
+        display: inline-block;
+    }
+    .section-title h2 {
+        font-size: 3.4rem;
+    }
+    .banner-image {
+        height: 400px;
+        max-width: 500px;
+    }
+    .servie-text h3 {
+        font-size: 2rem;
+    }
+    .footer-left p {
+        max-width: 310px;
+    }
+    .teem-image-area {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 2rem;
+    }
+    .about-us h2 {
+        font-size: 4rem;
+    }
+    .dunia-area {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .testimonial-area {
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 5rem;
+    }
+}
+@media all and (max-width:575px){   
+    .banner-content h1 {
+        max-width: 350px;
+        font-size: 3.5rem;
+    }
+    .banner-image {
+        height: 349px;
+        max-width: 397px;
+    }
+    .colfour {
+        height: 190px;
+    }
+    .single-service-area {
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .footer-left {
+        flex-direction: column;
+    }
+    .about-us-main-area {
+        padding: 5rem 0;
+    }
+    .about-us p {
+        font-size: 1.5rem;
+    }
+    .comunity-image {
+        height: 150px;
+        width: 150px;
+        padding: 1rem 0;
+        margin: auto;
+    }
+    .comunity-image-area {
+        flex-direction: column;
+    }
+    .getstart-contant h2 {
+        font-size: 3rem;
+    }
+    .getstart-contant p {
+        font-size: 16px;
+        max-width: 335px;
+    }
+}
+@media all and (max-width:480px){
+    .about-us h2 {
+        font-size: 4rem;
+    }
+    .ld-button {
+        margin-bottom: 2rem;
+    }
+    .dunia-icon-box {
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 3rem;
+    }
+    .signinarea {
+        width: 320px;
+        margin: auto;
+    }
+    .signup-p {
+        font-size: 1.6rem !important;
+    }
+}
